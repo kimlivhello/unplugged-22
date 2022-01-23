@@ -14,8 +14,13 @@
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300,500;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
@@ -24,8 +29,129 @@
 
 <body>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <header>
+    <div class="content-wrapper header-wrapper">
+      <a href="index.html"><img src="img/logo.png" alt="unplugged logo"></a>
+      <nav>
+        <ul>
+          <li><a href="faq/index.html">FAQ</a></li>
+          <li><a href="about/index.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero-section">
+      <div class="content-wrapper hero-wrapper">
+        <h1>Retreat from the desk, return refreshed.</h1>
+      </div>
+    </section>
+  
+    <aside id="form-section">
+      <div class="content-wrapper form-wrapper">
+        <div class="form-info">
+          <h3>Want to join the next retreat?</h3>
+          <p>Find out when we are holding 
+            our next retreat and how your company or team can sign up!</p>
+        </div>
+        <div class="form">
+          <h3>Find out more</h3>
+          <input type="text" name="name" value="name@address.com">
+          <input type="button" value="Download Itinerary">
+        </div>
+      </div>
+    </aside>
+      
+    <section id="features">
+      <div class="content-wrapper features-wrapper">
+        <h2>Have the work week you always dreamed of &ndash; 
+          without the bad wifi.
+        </h2>
+        <div class="feature-container">
+          <article class="features-item">
+            <p><i class="fa-solid fa-campground"></i></p>
+            <p>Located in a peaceful bungalow outside of Lake Geneva, Wisconsin.</p>
+          </article>
+        </div>
+        <div class="feature-container">
+          <article class="features-item">
+            <p><i class="fa-solid fa-bed"></i></p>
+            <p>12 private rooms with ensuite bathrooms, 2 group meeting rooms, and 4 breakout rooms.</p>
+          </article>
+        </div>
+        <div class="feature-container">
+          <article class="features-item">
+            <p><i class="fa-solid fa-utensils"></i></p>
+            <p>Private chef team providing on demand meals - just like your team kitchen.</p>
+          </article>
+        </div>
+        <div class="feature-container">
+          <article class="features-item">
+            <p><i class="fa-solid fa-shoe-prints"></i></p>
+            <p>5 outdoor obstacle courses, including private beach &frac12; mile from the bungalow.</p>
+          </article>
+        </div>
+        <div class="feature-container">
+          <article class="features-item">
+            <p><i class="fa-solid fa-face-smile"></i></p>
+            <p>Retreat facilitator to manage your day to day activities so you all get to reset.</p>
+          </article>
+        </div>
+        <div class="feature-container">
+          <article class="features-item">
+            <p><i class="fa-solid fa-wifi"></i></p>
+            <p>Dedicated computer room for times that you must wifi.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews">
+      <div class="content-wrapper reviews-wrapper">
+        <h2>Be a better team in 5 days, like this one.</h2>
+        <div class="reviews-container">
+          <div class="review-image">
+            <img src="img/team.jpg" alt="happy team outdoors">
+          </div>
+          <div class="review-content">
+            <h3>LaCrue Bottling Co.<br>October 2021</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+              reiciendis nihil quidem in dolorum corrupti iure, 
+              eum saepe ratione explicabo ipsum iste vitae obcaecati 
+              amet ipsa ex consectetur eius voluptates.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="content-wrapper footer-wrapper">
+      <div class="footer-content">
+        <div class="contact">
+          <h3>Contact</h3>
+          <address>
+            <p>555-555-5555<br>hello@unplugged.com</p>
+          </address>
+        </div>
+        <div class="social">
+          <h3>Social</h3>
+          <div class="social-icons">
+            <p><a href="https://www.facebook.com" target="_blank"></a></p>
+            <p><a href="https://www.twitter.com" target="_blank"></a></p>
+            <p><a href="https://www.instagram.com" target="_blank"></a></p>
+          </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright 2022 | Unplugged </p>
+      </div>
+    </div>
+  </footer>
+
+
+
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
