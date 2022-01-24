@@ -145,52 +145,15 @@ textarea {
     font-size: 14px;
   }
 
-  header {
-    background-color: var(--dark-color);
-  }
-
-  nav ul {
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    padding: 0;
-  }
-
-  ul li a {
-    color: var(--light-color);
-    font-weight: bold;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 0 20px;
-  }
-
-  aside {
-    background-color: var(--light-green);
-    margin: 0;
-  }
-
-  #features {
-    background-image: url("../img/features-background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  #reviews {
-    background-color: var(--dark-green);
-  }
-
-  footer {
-    background-color: var(--dark-color);
-    text-align: center;
-    margin-bottom: 0;
-  }
-
   address {
     font-style:  normal;
   }
 
-  /**** MOBILE STYLES ****/
+  /**** MOBILE STYLES -- Header and Footer ****/
+
+  header {
+    background-color: var(--dark-color);
+  }
 
   header img {
     padding: 10px 0 0 0;
@@ -200,6 +163,46 @@ textarea {
   header nav {
     margin: 0;
   }
+
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  nav ul li a {
+    color: var(--light-color);
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 20px;
+  }
+
+  footer {
+    background-color: var(--dark-color);
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .footer-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  
+  footer h3 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+
+  footer .social {
+    margin-bottom: 50px;
+  }
+
+
+
+  /**** MOBILE STYLES -- Homepage ****/
 
   #hero-section {
     background-image: url("../img/hero.jpg");
@@ -212,6 +215,11 @@ textarea {
 
   .hero-wrapper h1 {
     padding: 50px 20px;
+    margin: 0;
+  }
+
+  aside {
+    background-color: var(--light-green);
     margin: 0;
   }
 
@@ -242,6 +250,10 @@ textarea {
   }
 
   #features {
+    background-image: url("../img/features-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-bottom: 60px;
   }
 
@@ -269,6 +281,10 @@ textarea {
     margin: 0 auto;
   }
 
+  #reviews {
+    background-color: var(--dark-green);
+  }
+
   .reviews-wrapper {
     padding: 50px 20px;
   }
@@ -285,20 +301,33 @@ textarea {
     margin: 0;
   }
 
-  .footer-wrapper {
-    display: flex;
-    justify-content: center;
-    padding: 10px 0;
-  }
-  
-  footer h3 {
-    margin-top: 40px;
-    margin-bottom: 15px;
-  }
+/**** MOBILE STYLES -- About Page ****/
 
-  footer .social {
-    margin-bottom: 50px;
-  }
+#mission {
+  background-color: var(--light-green);
+}
+
+.mission-wrapper {
+  padding: 50px 20px;
+}
+
+#contact-section {
+  background-color: var(--dark-green);
+}
+
+.contact-wrapper {
+  padding: 50px 20px;
+}
+
+/**** MOBILE STYLES -- FAQ Page ****/
+
+#faqs {
+  background: var(--light-green);
+}
+
+.faq-wrapper {
+  padding: 50px 20px;
+}
 
 /* ==========================================================================
    Helper classes

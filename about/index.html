@@ -13,9 +13,14 @@
   <meta property="og:image" content="">
 
   <link rel="manifest" href="../site.webmanifest">
-  <link rel="apple-touch-icon" href="../.png">
-  <!-- Place favicon.ico in the root directory -->
+  <link rel="apple-touch-icon" href="../icon.png">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300,500;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link rel="stylesheet" href="../css/normalize.css">
   <link rel="stylesheet" href="../css/main.css">
 
@@ -24,8 +29,90 @@
 
 <body>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <header>
+    <div class="content-wrapper header-wrapper">
+      <a href="index.html"><img src="../img/logo.png" alt="unplugged logo"></a>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../faq/index.html">FAQ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="mission">
+      <div class="content-wrapper mission-wrapper">
+        <h2>Our Mission &ndash; we want to make you the team you always wanted to be.</h2>
+        <div class="mission-content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, sed soluta ipsum 
+            explicabo maxime atque vel unde doloremque quo dolor voluptatum expedita animi architecto 
+            repellat voluptates nam quaerat tempora ipsa dolores vitae veniam in tempore officia. 
+            Harum sunt laboriosam atque tempora deserunt cumque optio, facilis illum voluptas, 
+            minus earum mollitia.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, sed soluta ipsum 
+            explicabo maxime atque vel unde doloremque quo dolor voluptatum expedita animi architecto 
+            repellat voluptates nam quaerat tempora ipsa dolores vitae veniam in tempore officia. 
+            Harum sunt laboriosam atque tempora deserunt cumque optio, facilis illum voluptas, 
+            minus earum mollitia.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="map">
+
+    </section>
+
+    <section id="contact-section">
+      <div class="content-wrapper contact-wrapper">
+        <h2>Contact us, because you need all this.</h2>
+        <div class="contact-content">
+          <div class="general-info">
+            <h3>General Information</h3>
+            <address>
+              <p>333 Main St, Lake Geneva, WI 53147<br>
+                 555-555-5555<br>
+                 hello@unplugged.com</p>
+            </address>
+          </div>
+          <div class="facilitator">
+            <h3>Chat with a Facilitator</h3>
+            <address>
+              <p>555-555-5555<br>
+                 facilitator@unplugged.com</p>
+            </address>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="content-wrapper footer-wrapper">
+      <div class="footer-content">
+        <div class="contact">
+          <h3>Contact</h3>
+          <address>
+            <p>555-555-5555<br>hello@unplugged.com</p>
+          </address>
+        </div>
+        <div class="social">
+          <h3>Social</h3>
+          <div class="social-icons">
+            <p><a href="https://www.facebook.com" target="_blank"></a></p>
+            <p><a href="https://www.twitter.com" target="_blank"></a></p>
+            <p><a href="https://www.instagram.com" target="_blank"></a></p>
+          </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright 2022 | Unplugged </p>
+      </div>
+    </div>
+  </footer>
+
+
+
   <script src="../js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="../js/plugins.js"></script>
   <script src="../js/main.js"></script>

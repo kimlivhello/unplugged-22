@@ -14,8 +14,13 @@
 
   <link rel="manifest" href="../site.webmanifest">
   <link rel="apple-touch-icon" href="../icon.png">
-  <!-- Place favicon.ico in the root directory -->
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300,500;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link rel="stylesheet" href="../css/normalize.css">
   <link rel="stylesheet" href="../css/main.css">
 
@@ -24,8 +29,81 @@
 
 <body>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <header>
+    <div class="content-wrapper header-wrapper">
+      <a href="index.html"><img src="../img/logo.png" alt="unplugged logo"></a>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../about/index.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="faqs">
+      <div class="content-wrapper faq-wrapper">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-container">
+          <article class="faq-item">
+            <h3>How do I get to the Unplugged retreat?</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Hic quas quisquam vitae temporibus nemo corporis quos officia 
+              beatae molestias ipsam non voluptas, perspiciatis ipsa odit 
+              blanditiis molestiae, maxime omnis eum?</p>
+          </article>
+          <article class="faq-item">
+            <h3>What kind of team is right for the Unplugged retreat?</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Hic quas quisquam vitae temporibus nemo corporis quos officia 
+              beatae molestias ipsam non voluptas, perspiciatis ipsa odit 
+              blanditiis molestiae, maxime omnis eum?</p>
+          </article>
+          <article class="faq-item">
+            <h3>What size teams can you accommodate?</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Hic quas quisquam vitae temporibus nemo corporis quos officia 
+              beatae molestias ipsam non voluptas, perspiciatis ipsa odit 
+              blanditiis molestiae, maxime omnis eum?</p>
+          </article>
+          <article class="faq-item">
+            <h3>Is there really no wifi available?</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Hic quas quisquam vitae temporibus nemo corporis quos officia 
+              beatae molestias ipsam non voluptas, perspiciatis ipsa odit 
+              blanditiis molestiae, maxime omnis eum?</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="content-wrapper footer-wrapper">
+      <div class="footer-content">
+        <div class="contact">
+          <h3>Contact</h3>
+          <address>
+            <p>555-555-5555<br>hello@unplugged.com</p>
+          </address>
+        </div>
+        <div class="social">
+          <h3>Social</h3>
+          <div class="social-icons">
+            <p><a href="https://www.facebook.com" target="_blank"></a></p>
+            <p><a href="https://www.twitter.com" target="_blank"></a></p>
+            <p><a href="https://www.instagram.com" target="_blank"></a></p>
+          </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright 2022 | Unplugged </p>
+      </div>
+    </div>
+  </footer>
+
+
+
   <script src="../js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="../js/plugins.js"></script>
   <script src="../js/main.js"></script>
