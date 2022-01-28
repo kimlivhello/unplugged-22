@@ -96,6 +96,12 @@ textarea {
 
   /**** STRUCTURE/LAYOUT ****/
 
+  header,
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   header .header-wrapper {
     display: flex;
@@ -272,7 +278,7 @@ textarea {
     margin-top: 40px;
   }
 
-  .feature-container {
+  .features-container {
     padding: 0 20px;
     display: flex;
     flex-direction: column;
@@ -417,8 +423,66 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 640px) {
+  
+  .content-wrapper {
+    margin: 0 60px;
+  }
+
+  .form-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .features-container {
+    max-width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .features-item {
+    width: 40%;
+    padding: 0 20px;
+  }
+
+  .reviews-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  .review-image,
+  .review-content {
+    width: 48%;
+  }
+
+  #reviews h3 {
+    padding-top: 0;
+  }
+
+  .footer-wrapper {
+    padding-top: 0;
+    width: 100%;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .contact,
+  .social {
+    width: 48%;
+    padding-bottom: 80px;
+  }
+
+  .copyright {
+    width: 100%;
+  }
+
 }
 
 @media print,
